@@ -12,6 +12,8 @@ One Piece TCG MCP server — card search, deck analysis, and set browsing for th
   <a href="https://glama.ai/mcp/servers/gregario/onepiece-oracle"><img src="https://glama.ai/mcp/servers/gregario/onepiece-oracle/badges/score.svg" alt="onepiece-oracle MCP server"></a>
 </p>
 
+<!-- mcp-name: io.github.gregario/onepiece-oracle -->
+
 ## What It Does
 
 Search, browse, and analyze One Piece TCG cards with ground-truth data from the community-maintained card database. 4,348 cards across all sets (OP-01 through OP-14, Starter Decks, Event Boosters, and Promos).
