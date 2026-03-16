@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "tools_count": 6,
+  "tests_count": 27,
+  "npm": { "published": false, "version": null },
+  "glama": { "listed": false, "score_badge": true, "ownership_claimed": false },
+  "mcp_registry": { "registered": false, "mcp_name": "io.github.gregario/onepiece-oracle" },
+  "awesome_mcp_servers": { "pr_submitted": false, "pr_url": null },
+  "github": { "release_tag": null, "sponsor_enabled": true },
+  "ci": { "oidc_publishing": false, "workflow": null }
+}
