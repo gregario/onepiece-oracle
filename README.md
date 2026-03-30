@@ -59,3 +59,8 @@ This is a fan-made, non-commercial project for informational and educational pur
 ## License
 
 MIT
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/gregario-onepiece-oracle).
+
