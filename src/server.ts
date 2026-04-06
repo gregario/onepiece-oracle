@@ -9,7 +9,7 @@ import { registerBrowseLeaders } from './tools/browse-leaders.js';
 import { registerAnalyzeCostCurve } from './tools/analyze-cost-curve.js';
 import { registerFindCounters } from './tools/find-counters.js';
 import { initCards } from './data/cards.js';
-import { readFileSync } from 'node:fs';
+import { readFileSync, realpathSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
@@ -44,7 +44,7 @@ export async function createServer(): Promise<McpServer> {
 // Only start stdio when run directly
 const isMain =
   process.argv[1] &&
-  fileURLToPath(import.meta.url).includes(process.argv[1]);
+  realpathSync(process.argv[1]) === fileURLToPath(import.meta.url);
 if (isMain) {
   console.error('onepiece-oracle MCP server starting...');
   const server = await createServer();
