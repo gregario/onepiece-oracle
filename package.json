@@ -1,7 +1,7 @@
 {
   "name": "onepiece-oracle",
-  "version": "0.1.0",
-  "description": "One Piece TCG MCP server \u2014 card search, deck analysis, and set browsing for the One Piece Card Game",
+  "version": "0.1.2",
+  "description": "One Piece TCG MCP server — card search, deck analysis, and set browsing for the One Piece Card Game",
   "type": "module",
   "main": "dist/server.js",
   "bin": {
