@@ -34,6 +34,14 @@
     "oracle"
   ],
   "mcpName": "io.github.gregario/onepiece-oracle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregario/onepiece-oracle.git"
+  },
+  "homepage": "https://github.com/gregario/onepiece-oracle#readme",
+  "bugs": {
+    "url": "https://github.com/gregario/onepiece-oracle/issues"
+  },
   "author": "gregario",
   "license": "MIT",
   "dependencies": {
